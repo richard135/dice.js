@@ -2,7 +2,7 @@
 var myArgs = process.argv.slice(2).toString();
 var temp=[];
 
-for (var i = 0; i <= (myArgs-1); i++){
+for (var i = 0; i < myArgs; i++){
   temp[i]=Random(i);
 }
 
